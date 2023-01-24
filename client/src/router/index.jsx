@@ -6,7 +6,7 @@ import MainLayout from '../layouts/MainLayout';
 import BookAdd from '../pages/book/BookAdd';
 import BookList from '../pages/book/BookList';
 import HomePage from '../pages/HomePage';
-
+import NotFoundPage from '../pages/NotFoundPage';
 export const router = createBrowserRouter([
   {
     element: <MainLayout />,
@@ -27,10 +27,10 @@ export const router = createBrowserRouter([
             element: <BookAdd />,
           },
           // Fallback to 404
-          // {
-          //   path: "*",
-          //   element: <NotFoundPage />,
-          // },
+          {
+            path: '*',
+            element: <NotFoundPage />,
+          },
         ],
       },
     ],
