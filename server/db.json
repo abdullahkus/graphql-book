@@ -1,5 +1,5 @@
-const data = {
-  books: [
+{
+  "books": [
     {
       "id": 1,
       "title": "AHarry Potter and the Sorcerer's Stone",
@@ -82,7 +82,7 @@ const data = {
       "title": "The Chronicles of Narnia",
       "genre_id": 1,
       "author_id": 11,
-      "publisher_date": "1950-03-14",
+      "publisher_date": "1950-03-14"
     },
     {
       "id": 13,
@@ -251,9 +251,9 @@ const data = {
       "genre_id": 5,
       "author_id": 34,
       "publisher_date": "1964-09-01"
-    },
+    }
   ],
-  authors: [
+  "authors": [
     {
       "id": 1,
       "first_name": "J.K.",
@@ -423,55 +423,52 @@ const data = {
       "id": 34,
       "first_name": "Shel",
       "last_name": "Silverstein"
-    },
-
+    }
   ],
-  genres: [
+  "genres": [
     {
-      id: 1,
-      name: "Fantasty"
+      "id": 1,
+      "name": "Fantasty"
     },
     {
-      id: 2,
-      name: "Literary Fiction"
+      "id": 2,
+      "name": "Literary Fiction"
     },
     {
-      id: 3,
-      name: "Science Fiction"
+      "id": 3,
+      "name": "Science Fiction"
     },
     {
-      id: 4,
-      name: "Young Adult"
+      "id": 4,
+      "name": "Young Adult"
     },
     {
-      id: 5,
-      name: "Children's Literature"
+      "id": 5,
+      "name": "Children's Literature"
     },
     {
-      id: 6,
-      name: "Philosophical Fiction"
+      "id": 6,
+      "name": "Philosophical Fiction"
     },
     {
-      id: 7,
-      name: "Thriller"
+      "id": 7,
+      "name": "Thriller"
     },
     {
-      id: 8,
-      name: "Self-help"
+      "id": 8,
+      "name": "Self-help"
     },
     {
-      id: 9,
-      name: "Historical Fiction"
+      "id": 9,
+      "name": "Historical Fiction"
     },
     {
-      id: 10,
-      name: "Non-fiction"
+      "id": 10,
+      "name": "Non-fiction"
     },
     {
-      id: 11,
-      name: "Philosophy"
+      "id": 11,
+      "name": "Philosophy"
     }
   ]
-};
-
-export default data
+}

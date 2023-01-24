@@ -1,9 +1,9 @@
-import express from 'express';
-import jsonGraphqlExpress from 'json-graphql-server';
-import cors from 'cors';
-import data from './db.js'
+const express = require('express')
+const jsonGraphqlExpress = require('json-graphql-server')
+const cors = require('cors')
+const data = require('./db.json')
 
-const port = process.env.PORT || 3200; // <== You can change the port
+const port = process.env.PORT || 4000; // <== You can change the port
 const app = express();
 
 app.use(cors());
