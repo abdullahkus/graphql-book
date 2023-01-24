@@ -187,6 +187,7 @@ const BookList = () => {
         columns={columns}
         dataSource={tableData}
         loading={allBooksLoading}
+        scroll={{ x: true }}
       />
     </>
   );
