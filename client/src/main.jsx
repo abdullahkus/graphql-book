@@ -9,7 +9,7 @@ import { router } from './router';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://fake-backend-graphql-book.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
@@ -22,3 +22,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </ApolloProvider>
   </React.StrictMode>,
 );
+;
